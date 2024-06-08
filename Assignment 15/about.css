@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+
+.crd{
+    background-color: tomato;
+    
+        height: 400px;
+        width: 300px;
+        border-radius: 5px;
+        display: inline-block;
+        margin:20px ;
+        padding:60;
+        box-shadow: 2px 9px 6px 9px rgb(204, 112, 112);
+     }
+     .img{
+        height: 170px;
+        width: 240px;
+        margin-left: 5px;
+        margin-top: 5px;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+    button:hover, h1:hover, a:hover {
+        background-color: yellow;
+    }
+
+    .card-title{
+        margin-left: 130px;
+        font-size: 15px;
+        margin-top: 5px;
+       }
+       .btn{
+        margin-left: 100px;
+         padding: 5px 30px;
+         font-size: 18px;
+         background-color: black;
+         color: white;
+         border-radius: 10px;
+         border: none;
+     }
+        
+}
