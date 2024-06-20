@@ -1,5 +1,5 @@
 .container{
-    background-image: url(images/3D1.jpg);
+    background-image: url(images/background.avif);
     background-size: cover;
     height: 700px;
     width: 1510px;
@@ -39,7 +39,7 @@ background-color: rgb(135, 149, 149);
    display: inline-block;
    position: relative;
 }
-.shubh-img{
+.coffee-img{
     background-color: rgb(237, 238, 238);
     position: absolute;
     height: 100px;

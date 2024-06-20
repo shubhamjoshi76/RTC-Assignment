@@ -1,0 +1,70 @@
+<style>
+.profiles-container{
+    display:flex;
+    flex-direction: column;
+}
+.profiles-container1{
+    display:flex;
+    flex-direction: column-reverse;   
+}
+
+.profiles-container2{
+    display:flex;
+    flex-direction:row-reverse;   
+}
+
+.profiles-container3{
+    display:flex;
+    justify-content: center;  
+}
+
+.profiles-container4{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.profiles-container5{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.profiles-container6{
+    display:flex;
+    justify-content:flex-around;
+}
+
+.profiles-container7{
+    display:flex;
+    flex-direction: row;
+    justify-content:center; 
+}
+
+.profiles-container8{
+    display:flex;
+    flex-direction: row;
+    justify-content:center; 
+    align-items: center;
+}
+.profile-card{
+    background-image: linear-gradient(red, yellow);
+    width: 220px;
+    border: 1px solid 0000;
+    border-radius: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+.profile-image
+{
+    width:110px ;
+    height:170px;
+    border-radius: ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.profile-name{
+    text-align: center;
+}
+</style>
