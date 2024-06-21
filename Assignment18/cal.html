@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <style>
+       
+      .calculator-body {
+        height: 250px;
+        width: 290px;
+        background-color: #23239e;
+        margin: 20px auto;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 40px;
+      }
+
+      .display {
+        background-color: #a4cc7c;
+        text-align: right;
+        width: 220px;
+        display: block;
+        margin: 0 auto;
+        font-size: 25px;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        font-family: "DS-Digital Normal";
+      }
+
+      .btn-container {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(187, 198, 202);
+      }
+
+      .btn {
+        width: 50px;
+        text-align: center;
+        padding: 2px 0;
+        font-size: 20px;
+        margin: 5px;
+        border: 0.5px solid rgb(225, 137, 137);
+        border-radius: 200px;
+        cursor: pointer;
+        background-color: rgb(32, 91, 117);
+      }
+
+      .btn1 {
+        width: 50px;
+        text-align: center;
+        padding: 2px 0;
+        font-size: 20px;
+        margin: 5px;
+        border: 0.5px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(32, 91, 117);
+      }
+
+      .btn2 {
+        width: 50px;
+        text-align: center;
+        padding: 2px 0;
+        font-size: 20px;
+        margin: 5px;
+        border: 0.5px solid black;
+        border-radius: 200px;
+        cursor: pointer;
+        background-color: rgb(32, 91, 117);
+      }
+
+
+      .btn-equals {
+        background-color: rgb(32, 91, 117);
+        height: 50px;
+        color: #fff;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator-body">
+      <input type="text" value="0" class="display" />
+
+      <div class="btn-container">
+        <button class="btn">AC</button>
+        <button class="btn1">1</button>
+        <button class="btn1">4</button>
+        <button class="btn1">7</button>
+        <button class="btn1">0</button>
+
+        <button class="btn">%</button>
+        <button class="btn1">2</button>
+        <button class="btn1">5</button>
+        <button class="btn1">8</button>
+        <button class="btn1">00</button>
+
+        <button class="btn">/</button>
+        <button class="btn1">3</button>
+        <button class="btn1">6</button>
+        <button class="btn1">9</button>
+        <button class="btn1">.</button>
+
+        <button class="btn2">X</button>
+        <button class="btn2">-</button>
+        <button class="btn2">+</button>
+        <button class="btn btn-equals">=</button>
+      </div>
+    </div>
+  </body>
+</html>
