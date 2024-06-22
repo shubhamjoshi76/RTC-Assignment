@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <style>
+        body{
+            background-color: #eeeee4;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .receipt{
+            width: 80%;
+            margin: 10px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .receipt-header{
+            border-bottom: 1px dashed;
+        }
+        .brand-logo{
+            height: 100px;
+        }
+        .brand-title{
+            font-size: 25px;
+        }
+        .brand-address{
+            text-align: right;
+        }
+        .receipt-body{
+          position: relative;
+        }
+        .receipt-title{
+            font-size: 30px;
+        }
+        .receipt-detail{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            margin: 20px;
+        }
+        .receipt-datail-key{
+            color: gray;
+            width: 30%;
+        }
+        .receipt-detail-value{
+            font-weight: bold;
+            border-bottom: 1px dashed ;
+            width: 20%;
+        }
+        .accountant-sign{
+            text-align: right;
+            margin: 50px 10px;
+            font:bold;
+        }
+        .stamp{
+           height: 140px;
+           position: absolute;
+           right: 0;
+           bottom: -30px;
+           transform: rotate(-30deg);
+        }
+        .receipt-footer{
+            padding: 15px 0;
+            font-size: 25px;
+            background-color: rgb(244, 244, 63);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="receipt">
+
+        <div class="receipt-header text-center">
+            <img src="avcoe-engineering-logo.png" alt="logo" class="brand-logo text-center">
+            <h2 class="brand-title text-center">AVCOE Sangamner</h2>
+            <p class="brand-address">
+                Amrutvahini College of Engineering Sangamner <br/>– 422608 Dist. Ahmednagar <br/>(Maharashtra-India) Tel: (02425)
+            </p>
+            <p class="brand-address">+91-1234567895</p>
+        </div>
+
+        <div class="receipt-body ">
+            <h3 class="receipt-title text-center">Payment Receipt</h3>
+             <div class="receipt-detail">
+                <span class="receipt-datail-key">Receipt No.:</span>
+                <span class="receipt-detail-value">345</span>
+             </div>
+             <div class="receipt-detail">
+                <span class="receipt-datail-key">Amount:</span>
+                <span class="receipt-detail-value">20000/-</span>
+             </div>
+             <div class="receipt-detail">
+                <span class="receipt-datail-key">Paymet mode:</span>
+                <span class="receipt-detail-value">Cash</span>
+             </div>
+             <div class="receipt-detail">
+                <span class="receipt-datail-key">Payment Date:</span>
+                <span class="receipt-detail-value">15 Jun 2024</span>
+             </div>
+              
+             <img src="images/pngwing.com.png" alt="paid-stamp" class="stamp">
+             <p class="accountant-sign">Accountant Signature</p>
+        </div>
+        
+        <hr/>
+          
+        <p>This is computer generated receipt does not require any signature</p>
+           
+        <div class="receipt-footer text-center">
+           <p>Thank You For Payment!</p>
+        </div>
+    </div>
+</body>
+</html>
