@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="load()">
+    <h1 onclick="onc()">I am learning events in js</h1>
+
+    <button ondblclick="dbl()">button1</button>
+
+    <input type="text" placeholder="enter name" onkeydown="down()" onkeypress="press()" onkeyup="up()">
+
+
+    <img src="img.jpeg" alt="img" onmouseover="over()" onmousemove="move()" onmouseout="out()" onmouse>
+
+    <input type="text" placeholder="onchange event" onchange="change()">
+
+    <script>
+        function load() {
+            alert("page is loaded successfully")
+        }
+        function change() {
+            console.log("changed");
+        }
+        function onc()
+        {
+            console.log("good...");
+        }
+
+        function dbl()
+         {
+          console.log("Double clicked");  
+        }
+        function down()
+         {
+          console.log("key is down");  
+        }
+        function press() {
+            console.log("key is pressed");
+        }
+        function up() {
+            console.log("key is up ");
+        }
+
+        function over() {
+            console.log("mouse over");
+        }
+
+        function move() {
+            console.log("mouse move");
+        }
+
+        function out() {
+            console.log("mouse out");
+        }
+    </script>
+
+
+</body>
+</html>

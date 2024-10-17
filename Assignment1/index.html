@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<body>
+    <h1>Click Events</h1>
+    <h3>1 Onclock Event</h3>
+    <button onclick="console.log('Button1')">Button one</button></br></br>
+
+
+         <button onclick="console.log('Button2')">Button Two</button></br>
+        </br>
+
+
+         <button ondblclick="console.log(`Double click`)">ok</button></br></br>
+
+
+         <input type="text" onkeypress="keyPress()" 
+         onkeydown="keyDown()"
+         onkeyup="keyUp()"/></br></br>
+         <img src="pizza.jpg" onmouseover="imageOver()" 
+         onmouseout="imageout()" onmousemove="imagemove()"/>
+        <script>
+           function keyPress(){
+            console.log('keyPress()')
+           }
+    
+           function keyDown(){
+            console.log('keyDown()')
+           }
+    
+           function keyUp(){ 
+            console.log('keyUp()')
+           }
+
+           function imageOver(){
+            console.log("Image Over")
+           }
+
+            function imageout(){
+                console.log("image out")
+            }
+            function imagemove(){
+                console.log("image move")
+            }
+        
+        </script>
+</body>
+</html>
+
+
+
+   
